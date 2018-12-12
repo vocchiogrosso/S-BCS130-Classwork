@@ -1,0 +1,92 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#SA {
+    animation: Banner 25s;
+    animation-iteration-count: infinite;
+    background-color: lightslategray;
+    /*background-image: url("../../Content/Photos/Events/10.jpg");*/
+    background-position-y: 50%;
+    background-position-x: 0%;
+    top: 0%;
+}
+
+    @keyframes Banner {
+        10%{background-position-x: 0%;}
+        90%{background-position-x: 60%;}
+    }
+
+    #NavigationBar {
+        background-color: #f6f6f6;
+    }
+
+        #NavigationItemA {
+            left: 10%;
+        }
+
+        #NavigationItemB {
+            left: 25%;
+        }
+
+        #NavigationItemC {
+            left: 40%;
+        }
+
+        #NavigationItemD {
+            left: 55%;
+        }
+
+        #NavigationItemE {
+            left: 70%;
+        }
+
+        #NavigationItemF {
+            left: 85%;
+        }
+
+        #Profile {
+            border-radius: 100%;
+            height: auto;
+            left: 40%;
+            position: absolute;
+            top: 20%;
+            max-width: 20%;
+        }
+
+        #ProfileName {
+            color: white;
+            font-size: 6vh;
+            text-shadow: 4px 4px 4px black;
+            text-align: center;
+            position: relative;
+            top: 52.5%;
+        }
+
+        #ProfileCatch {
+            color: white;
+            font-size: 3vh;
+            text-shadow: 4px 4px 4px black;
+            text-align: center;
+            position: relative;
+            top: 62%;
+        }
+
+#SB {
+    background-color: whitesmoke;
+    top: 100%;
+}
+
+    #TA1 {
+        float: left;
+    }
+
+    #TA2 {
+        float: left;
+
+    }
+
+#SE { 
+    background-color: gray;
+    top: 200%;
+}

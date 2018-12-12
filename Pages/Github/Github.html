@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta lang="en-us"/>
+    <title>Home</title>
+    <link rel="Stylesheet" type="text/css" href="../../Libraries/Stylesheet_W.css" media="screen and (min-width: 600px)"/>
+    <link rel="Stylesheet" type="text/css" href="../../Libraries/Stylesheet_M.css" media="screen and (max-width: 599px)"/>
+    <link rel="Stylesheet" type="text/css" href="Github_W.css" media="screen and (min-width: 600px)"/>
+    <link rel="Stylesheet" type="text/css" href="Github_M.css" media="screen and (max-width: 599px)"/>
+    <script>
+       var clicked=1;
+       function activateMenu(){
+         if (clicked==1){
+            document.getElementById('NavigationBar').style.width="10%";
+            for(var x=5;x>=0;x--){
+               document.getElementsByClassName('Navigation-Bar-Top-Button')[0].style.width="100%";
+               document.getElementsByClassName('Navigation-Bar-Top-Item')[x].style.width="0%";
+               document.getElementsByClassName('Navigation-Bar-Top-Item-Text')[x].style.top="-100%";
+               document.getElementsByClassName('Navigation-Bar-Top-Item-Text')[x].style.opacity="0";
+               document.getElementById('NavigationBar').style.borderBottomRightRadius = "25px";
+            }
+            clicked=0;
+         }else if (clicked==0){
+            document.getElementById('NavigationBar').style.width="100%";
+            for(var x=5;x>=0;x--){
+               document.getElementsByClassName('Navigation-Bar-Top-Button')[0].style.width="10%";
+               document.getElementsByClassName('Navigation-Bar-Top-Item')[x].style.width="15%";
+               document.getElementsByClassName('Navigation-Bar-Top-Item-Text')[x].style.top="20%";
+               document.getElementsByClassName('Navigation-Bar-Top-Item-Text')[x].style.opacity="1";           
+               document.getElementById('NavigationBar').style.borderBottomRightRadius = "0px";
+            }
+            clicked=1;
+         }
+       }
+    </script>
+ </head>
+ <body>
+  <div class="Screen" id="SA">
+   <div class="Navigation-Bar-Top" id="NavigationBar">
+    <a href="#" onclick="activateMenu()"><div class="Navigation-Bar-Top-Button">
+       <div class="Navigation-Menu-Icon-Top" ></div>
+       <div class="Navigation-Menu-Icon-Middle" ></div>
+       <div class="Navigation-Menu-Icon-Bottom" ></div>
+      </div></a>
+      <a href="../Home/Home.html"><div class="Navigation-Bar-Top-Item" id="NavigationItemA"><p class="Navigation-Bar-Top-Item-Text">Home</p></div></a>
+      <a href="../About/About.html"><div class="Navigation-Bar-Top-Item" id="NavigationItemB"><p class="Navigation-Bar-Top-Item-Text">About</p></div></a>
+      <a href="../Resume/Resume.html"><div class="Navigation-Bar-Top-Item" id="NavigationItemC"><p class="Navigation-Bar-Top-Item-Text">Resume</p></div></a>
+      <a href="../Github/Github.html"><div class="Navigation-Bar-Top-Item" id="NavigationItemD"><p class="Navigation-Bar-Top-Item-Text">Github</p></div></a>
+      <a href="../Contact/Contact.html"><div class="Navigation-Bar-Top-Item" id="NavigationItemE"><p class="Navigation-Bar-Top-Item-Text">Contact</p></div></a>
+      <a href="../Legacy/Legacy.html"><div class="Navigation-Bar-Top-Item" id="NavigationItemF"><p class="Navigation-Bar-Top-Item-Text">Legacy</p></div></a>
+     </div>
+   <h1 id="ProfileName">Github Projects</h1>
+  </div>
+  <div class="Screen" id="SB">
+   <h1 id="TA5">Popular Projects</h1>
+   <div class="grid-container">
+      <a href="#SB" onclick="alert('Unavailable')"><div class="grid-item">SolVR</div></a>
+      <a href="https://github.com/Emsource" target="_blank"><div class="grid-item">Emsource</div></a>
+      <a href="https://github.com/HackersAlliance" target="_blank"><div class="grid-item">Hackers Alliance</div></a>
+      <a href="https://github.com/SortingSite" target="_blank"><div class="grid-item">Sorting Site</div></a>
+      <a href="https://github.com/HackerTravel" target="_blank"><div class="grid-item">Hacker Travel</div></a>
+      <a href="https://github.com/Megahacks" target="_blank"><div class="grid-item">Megahacks</div></a>
+      <a href="https://github.com/IslandHacks" target="_blank"><div class="grid-item">IslandHacks</div></a>
+      <a href="https://github.com/Snowhacks" target="_blank"><div class="grid-item">Snowhacks</div></a>
+      <a href="https://github.com/DesignJS" target="_blank"><div class="grid-item">DesignJS</div></a>
+    </div>
+  </div>
+  <div class="Screen" id="SC">
+
+  </div>
+  <div class="Screen" id="SD">
+
+  </div>
+  <div class="Footer" id="SE">
+      <br><h3>Made With <span class="red-text">❤</span> By Vincent Occhiogrosso Ⓒ2018<br><br>
+         All code, programs and content on the website are under a GPLv3 license to Vincent Occhiogrosso unless otherwise stated</h3>
+  </div>
+ </body>
+</html>

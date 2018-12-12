@@ -1,0 +1,244 @@
+* {
+    color: black;
+}
+
+html,body{overflow-x: hidden;}
+
+/*| Default Web Formatted Screens |*/
+
+.Screen {
+    height: 100%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+}
+
+.ScreenDouble {
+    height: 200%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+}
+
+.ScreenTriple {
+    height: 300%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+}
+
+.Footer {
+    height: 25%;
+    left: 0%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+    .red-text{
+        color: red;
+    }
+
+/*| Navigation Bar Types |*/
+
+.Navigation-Bar-Top {
+    height: 15%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.Navigation-Bar-Left-Side {
+    height: 100%;
+    left: 0%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
+
+.Navigation-Bar-Right-Side {
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    width: 15%;
+    z-index: 2;
+}
+
+    /*| Fixed Versions Of Navigation Bar |*/
+
+    .Navigation-Bar-Top-Fixed {
+        height: 15%;
+        left: 0%;
+        position: fixed;
+        top: 0%;
+        width: 100%;
+        z-index: 2;
+    }
+    
+    .Navigation-Bar-Left-Side-Fixed {
+        height: 100%;
+        left: 0%;
+        position: fixed;
+        top: 0%;
+        width: 15%;
+        z-index: 2;
+    }
+    
+    .Navigation-Bar-Right-Side-Fixed {
+        height: 100%;
+        position: fixed;
+        right: 0%;
+        top: 0%;
+        width: 15%;
+        z-index: 2;
+    }
+
+/*| Navigation Bar Button |*/
+
+    .Navigation-Bar-Top-Button {
+        height: 100%;
+        left: 0%;
+        position: absolute;
+        top: 0%;
+        width: 10%;
+    }
+
+        .Navigation-Menu-Icon-Top {
+            background-color: gray;
+            border: 1px solid black;
+
+            height: 15%;
+            left: 20%;
+            position: absolute;
+            top: 15%;
+            width: 60%;
+        }
+
+        .Navigation-Menu-Icon-Middle {
+            background-color: gray;
+            border: 1px solid black;
+
+            height: 15%;
+            left: 20%;
+            position: absolute;
+            top: 40%;
+            width: 60%;
+        }
+
+        .Navigation-Menu-Icon-Bottom {
+            background-color: gray;
+            border: 1px solid black;
+
+            height: 15%;
+            left: 20%;
+            position: absolute;
+            top: 65%;
+            width: 60%;
+        }
+
+    .Navigation-Bar-Top-Item {
+        font-size: 1.5em;
+        height: 100%;
+        position: absolute;
+        text-align: center;
+        top: 0%;
+        width: 15%;
+    }
+
+        a .Navigation-Bar-Top-Item:hover {
+            background-color: lightgray;
+        }
+
+    .Navigation-Bar-Top-Item-Text {
+        position: relative;
+        top: 10%;
+    }
+
+        a .Navigation-Bar-Top-Item-Text:hover {
+            color:saddlebrown;
+        }
+
+
+/*| Panels |*/
+
+    .Panel-One-Thirds {
+        background-color: rgb(161, 176, 192);;
+        position: absolute;
+        height: 90%;
+        width: 30%;
+        -webkit-box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
+    }
+
+    .Panel-Two-Thirds {
+        position: absolute;
+        height: 90%;
+        width: 60%;
+    }
+
+    .Panel-Three-Thirds {
+        position: absolute;
+        height: 90%;
+        width: 90%;
+    }
+
+        .Panel-Left-Third-One {
+            top: 5%;
+            left: 3.3%;
+        }
+
+    .Panel-Two-Thirds-One-Third {
+        background-color: rgb(161, 176, 192);
+        position: absolute;
+        height: 27.5%;
+        width: 60%;
+        -webkit-box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
+    }
+
+        .Panel-Mid-Top {
+            top: 5%;
+            left: 37.5%;
+        }
+
+        .Panel-Mid-Mid {
+            top: 36.25%;
+            left: 37.5%;
+        }
+
+        .Panel-Mid-Bottom {
+            top: 67.75%;
+            left: 37.5%;
+        }
+
+            .Panel-Mid-Square{
+                border-right: 1px solid black;
+                background-color: rgb(150, 150, 150);
+                position: absolute;
+                width: 25%;
+                height: 100%;
+            }
+
+            .Panel-Mid-Square:hover{
+                background-color: rgb(95, 95, 95);
+            }
+
+            .Panel-Left-Top{
+                border-bottom: 1px solid black;
+                background-color: rgb(150, 150, 150);
+                font-size: 3vh;
+                padding-top: 2.5%;
+                position: absolute;
+                width: 100%;
+                height: 15%;
+            }
+
+            .Panel-Left-Top:hover{
+                background-color: rgb(95, 95, 95);
+            }
+
+/*| Modifications and Positioning |*/
+

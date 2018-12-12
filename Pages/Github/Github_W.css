@@ -1,0 +1,107 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#SA {
+    animation: Banner 25s;
+    animation-iteration-count: infinite;
+    background-color: lightslategray;
+    background-position-x: 0%;
+    top: 0%;
+}
+
+    @keyframes Banner {
+        10%{background-position-x: 0%;}
+        90%{background-position-x: 60%;}
+    }
+
+    #NavigationBar {
+        background-color: #f6f6f6;
+    }
+
+        #NavigationItemA {
+            left: 10%;
+        }
+
+        #NavigationItemB {
+            left: 25%;
+        }
+
+        #NavigationItemC {
+            left: 40%;
+        }
+
+        #NavigationItemD {
+            left: 55%;
+        }
+
+        #NavigationItemE {
+            left: 70%;
+        }
+
+        #NavigationItemF {
+            left: 85%;
+        }
+
+        #Profile {
+            border-radius: 100%;
+            height: auto;
+            left: 40%;
+            position: absolute;
+            top: 20%;
+            max-width: 20%;
+        }
+
+        #ProfileName {
+            color: white;
+            font-size: 6vh;
+            text-shadow: 4px 4px 4px black;
+            text-align: center;
+            position: relative;
+            top: 52.5%;
+        }
+
+        #ProfileCatch {
+            color: white;
+            font-size: 3vh;
+            text-shadow: 4px 4px 4px black;
+            text-align: center;
+            position: relative;
+            top: 62%;
+        }
+
+#SB {
+    background-color: whitesmoke;
+    top: 100%;
+}
+
+    #TA5 {
+        position: relative;
+        text-align: center;
+        top:10%;
+    }
+
+    .grid-container {
+        display: grid;
+        text-decoration: none;
+        grid-template-columns: auto auto auto;
+        padding: 10%;
+    }
+
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        font-size: 30px;
+        padding: 50px;
+        text-align: center;
+    }
+
+    .grid-item:hover{
+        background-color:rgb(146, 167, 189);
+    }
+
+#SE { 
+    background-color: gray;
+    top: 200%;
+}
