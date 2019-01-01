@@ -72,19 +72,14 @@
             top: 62%;
         }
 
-#SB {
-    background-color: whitesmoke;
-    top: 100%;
-}
 
-    #TA1 {
-        float: left;
-    }
+        #SB { 
+            background-color: whitesmoke;
+            top: 100%;
+        }
 
-    #TA2 {
-        float: left;
+        
 
-    }
 
 #SE { 
     background-color: gray;
